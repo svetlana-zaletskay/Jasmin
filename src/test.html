@@ -1,0 +1,79 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <title>The HTML5 Herald</title>
+    <meta name="description" content="The HTML5 Herald">
+    <meta name="author" content="SitePoint">
+</head>
+
+<body>
+<div class="blue">
+    <div class="yellow"></div>
+    <div class="green"></div>
+    <div class="purpule"></div>
+</div>
+</body>
+
+<style type="text/css">
+    .blue {
+        background-color: blue;
+        width: 1000px;
+        height: 1000px;
+    }
+
+    .blue.xxx .green {
+        display: inline-block;
+    }
+
+    .blue.xxx .yellow {
+        display: inline-block;
+    }
+
+    .blue.xxx .purpule {
+        display: inline-block;
+    }
+
+    .green {
+        background-color: green;
+        width: 10%;
+        height: 10%;
+    }
+
+    .yellow {
+        background-color: yellow;
+        width: 10%;
+        height: 10%;
+    }
+
+    .purpule {
+        background-color: purple;
+        width: 10%;
+        height: 10%;
+    }
+</style>
+<script>
+    var commandBob = 'xxx';
+    var result = '';
+
+    debugger;
+
+    switch (commandBob){
+
+        case '?':
+            result = 'Sure';
+            console.log(result);
+            break;
+        case 'shouting':
+            result = 'Whoa, chill out!';
+            break;
+        case 'silence':
+            result = 'Fine. Be that way!';
+            break;
+        default:
+            result = 'Whatever';
+            break;
+    }
+</script>
